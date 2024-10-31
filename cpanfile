@@ -17,5 +17,6 @@ requires "File::Which";
 requires "File::Copy::Recursive";
 requires "Moo", ">= 2.0";
 
+test_requires "Capture::Tiny";
 test_requires "Test::MockModule";
 test_requires "Test::Strict";
